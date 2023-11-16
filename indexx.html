@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Innovate Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #001f3f; /* Fond bleu foncé */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0074D9;
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0074D9;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        ul {
+            list-style-type: disc;
+
+        }
+        address {
+            font-style: italic;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Style pour le formulaire */
+        form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            color: #000;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #0074D9;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+ <header>
+        <h1>Welcome to Tech Innovate Solutions</h1>
+        <p>Your Partner in Technology Excellence</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide a wide range of IT services to meet your business needs, including:</p>
+        <ul>
+            <li>Custom Software Development</li>
+            <li>IT Consulting and Strategy</li>
+            <li>Project Management</li>
+            <li>Cybersecurity Solutions</li>
+            <li>Web Hosting and Cloud Services</li>
+        </ul>
+    </section>
+   <section id="about">
+        <h2>About Us</h2>
+        <p>Tech Innovate Solutions is a technology-driven company dedicated to delivering innovative solutions to our c>    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to discuss your IT needs, please contact us:</p>
+
+         <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+
+    <hr>
+
+
+    <?php include 'list_files.php'; ?>
+
+    <hr>
+    <form action="delete_file.php" method="post">
+        <input type="text" name="delete" placeholder="Nom du fichier à supprimer">
+        <input type="submit" value="Supprimer le fichier">
+    </form>
+    </form>
+</body>
+</html>
+
+    </section>
+
+
+
+    <footer>
+        &copy; 2023 Tech Innovate Solutions
+    </footer>
+</body>
+</html>
