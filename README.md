@@ -53,7 +53,7 @@ Ce script PHP permet de supprimer un fichier spécifié à partir des données d
 #  Utilisation
 
  **Intégration dans un Formulaire HTML :**
-   - Intégrez ce code PHP dans le fichier qui traitera le formulaire de suppression (par exemple, `delete_file.php`).
+
 
     Exemple de formulaire :
 
@@ -76,7 +76,7 @@ Ce script PHP génère une liste de liens pour télécharger les fichiers stock�
 # Utilisation
 
 1. **Intégration dans une Page HTML :**
-   - Intégrez ce code PHP dans la page où vous souhaitez afficher la liste de téléchargement.
+   
 
     Exemple d'intégration :
 
