@@ -55,7 +55,7 @@ Ce script PHP permet de supprimer un fichier spécifié à partir des données d
  **Intégration dans un Formulaire HTML :**
 
 
-    Exemple de formulaire :
+    
 
     ```html
     <form action="delete_file.php" method="post">
@@ -78,7 +78,7 @@ Ce script PHP génère une liste de liens pour télécharger les fichiers stock�
 1. **Intégration dans une Page HTML :**
    
 
-    Exemple d'intégration :
+    
 
     ```php
     <?php
