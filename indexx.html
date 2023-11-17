@@ -135,7 +135,16 @@
     <hr>
 
 
-    <?php include 'list_files.php'; ?>
+    <section id="downloads">
+    <h2>Downloads</h2>
+    <?php
+    $files = glob("uploads/*");
+    foreach ($files as $file) {
+        echo '<a href="' . $file . '" download>' . basename($file) . '</a><br>';
+    }
+    ?>
+</section>
+
 
     <hr>
     <form action="delete_file.php" method="post">
